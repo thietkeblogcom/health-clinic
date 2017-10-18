@@ -1,0 +1,44 @@
+/*
+Theme Name: Beaver Builder Child Theme
+Theme URI: http://www.wpbeaverbuilder.com
+Version: 1.0
+Description: An example child theme that can be used as a starting point for custom development.
+Author: The Beaver Builder Team
+Author URI: http://www.fastlinemedia.com
+template: bb-theme
+*/
+@font-face {
+  font-family: 'iCielPanton-Light';
+  src: url('fonts/iCielPanton-Light.eot');
+  src: url('fonts/iCielPanton-Light.otf');
+  src: url('fonts/iCielPanton-Light.woff#iefix') format('embedded-opentype'), url('fonts/iCielPanton-Light.ttf') format('truetype'), url('fonts/iCielPanton-Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+.fl-node-content .uabb-dual-color-heading *,
+.fl-node-content .uabb-dual-color-heading .uabb-first-heading-text,
+.uabb-module-content .uabb-text-editor *:not(i),
+.fl-node-58cf2f644501b .uabb-heading,
+.fl-node-58cf2f644501b .uabb-heading * {
+  font-family: arial;
+}
+.banner .uabb-infobox-title-prefix,
+.banner .uabb-infobox-title {
+  font-family: 'iCielPanton-Light' !important;
+}
+.font-new .uabb-infobox-title,
+.font-new .uabb-heading-text {
+  font-family: 'iCielPanton-Light' !important;
+}
+@media (max-width: 1024px) {
+  .fl-node-58cf2f6445204 .uabb-heading,
+  .fl-node-58cf2f6445204 .uabb-heading * {
+    font-size: 39px;
+  }
+}
+@media (max-width: 768px) {
+  .fl-node-58cf2f6445204 .uabb-heading,
+  .fl-node-58cf2f6445204 .uabb-heading * {
+    font-size: 29px;
+  }
+}
